@@ -1,47 +1,12 @@
-# Virtual env and env files
-.venv/
-.env
-.env.*
-!.env.example
-
-# Bytecode and caches
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
-.Python
-
-# Build and packaging
+*$py.class
+.venv/
+.env
 *.egg-info/
-*.egg
 dist/
 build/
-eggs/
-*.manifest
-*.spec
+.ruff_cache/
 
-# Testing and coverage
-.pytest_cache/
-.mypy_cache/
-.coverage
-htmlcov/
-.tox/
-nox.xml
-
-# uv
-uv.lock
-
-# IDE / editor
-.idea/
-.vscode/
-*.swp
-*.swo
-*~
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Debug / local
-sync_out.txt
-sync_verbose.txt
+# Local Cursor MCP config (often holds OAuth secrets)
+.cursor/mcp.json
